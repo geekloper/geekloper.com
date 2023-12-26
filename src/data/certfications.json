@@ -1,0 +1,44 @@
+[
+  {
+    "id": 0,
+    "title": "Career Essentials in Generative AI ",
+    "date": "Dec 2023",
+    "image": "/imgs/certifications/microsoft_logo.jpg",
+    "credential_link": "https://www.linkedin.com/learning/certificates/8153d275827cd00a093c72098edff327e3e052df867d59ed212788a215cdc79d?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3B18RG%2BXR%2FSRayyNaV35RZQA%3D%3D"
+  },
+  {
+    "id": 1,
+    "title": "HashiCorp Certified: Terraform Associate Course",
+    "date": "Nov 2022",
+    "image": "/imgs/certifications/acloudguru_logo.jpg",
+    "credential_link": "https://verify.acloud.guru/535D7C9ABA05"
+  },
+  {
+    "id": 2,
+    "title": "Kubernetes Application Developer Course",
+    "date": "Oct 2022",
+    "image": "/imgs/certifications/acloudguru_logo.jpg",
+    "credential_link": "https://verify.acloud.guru/A1DC022366EA"
+  },
+  {
+    "id": 3,
+    "title": "Microsoft Certified: Azure Developer Associate",
+    "date": "Jul 2021",
+    "image": "/imgs/certifications/microsoft_logo.jpg",
+    "credential_link": "https://www.credly.com/badges/c7c1f0d7-960e-4592-98cb-fdff7b9cef1f"
+  },
+  {
+    "id": 4,
+    "title": "Microsoft Certified: Azure Data Engineer Associatee",
+    "date": "Jun 2021",
+    "image": "/imgs/certifications/microsoft_logo.jpg",
+    "credential_link": "https://www.credly.com/badges/6a41d9ea-3e71-4926-a0d2-9c7aa71a7b62"
+  },
+  {
+    "id": 5,
+    "title": "Microsoft Certified: Azure Fundamentals",
+    "date": "Dec 2019",
+    "image": "/imgs/certifications/microsoft_logo.jpg",
+    "credential_link": "https://www.youracclaim.com/badges/71841314-140a-4898-8f00-6c9210856fd2"
+  }
+]

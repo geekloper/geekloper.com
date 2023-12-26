@@ -1,0 +1,160 @@
+[
+  {
+    "id": 0,
+    "title": "DevOps & Cloud Tech Lead - Capgemini",
+    "date": "Sep 2022 - Present",
+    "description": "As DevOps & Cloud leader of 5GOPEN ROAD project, I contribute to implementing innovative and eco-friendly mobility solutions based on 5G technology.",
+    "tasks": [
+      {
+        "id": 0,
+        "description": "Definition and implementation of best DevOps practices within teams"
+      },
+      {
+        "id": 1,
+        "description": "Development and maintenance of pipelines (CI/CD) with Azure DevOps, ArgoCD and Ansible."
+      },
+      {
+        "id": 2,
+        "description": "Development and maintenance of infra as code"
+      },
+      {
+        "id": 3,
+        "description": "Deployment of development and testing environments in the cloud"
+      },
+      {
+        "id": 4,
+        "description": "Constant support during deployment on edge servers with partners"
+      }
+    ],
+    "link": "https://www.capgemini.com/fr-fr/actualites/communiques-de-presse/5g-open-road-revolution-autonome-en-route/"
+  },
+  {
+    "id": 1,
+    "title": "Technical Lead - Capgemini",
+    "date": "Jan 2019 - Sep 2022",
+    "description": "As Lead Tech of 5G Lab project, a project that aims to create innovative solutions based on 5G and related technologies for industries and smart cities. My key contributions are:",
+    "tasks": [
+      {
+        "id": 0,
+        "description": "Supporting development teams in Devops best practices and technical problem solving"
+      },
+      {
+        "id": 1,
+        "description": "Setting up Cloud-Native microservice architecture for 5G use case demos, such as augmented reality, telemedicine, traffic management and public safety"
+      },
+      {
+        "id": 2,
+        "description": "Creating CI/CD pipelines for quality, security and performance of applications deployed on the cloud & edge servers"
+      },
+      {
+        "id": 3,
+        "description": "Automating and optimizing deployment, monitoring and incident resolution processes"
+      }
+    ],
+    "link": "https://www.capgemini.com/solutions/5g-labs/"
+  },
+  {
+    "id": 2,
+    "title": "Technical Lead - Capgemini",
+    "date": "May 2019 - Jan 2020",
+    "description": "As lead tech of WebAgent project for Securitas World leader in private security. My key contributions are :",
+    "tasks": [
+      {
+        "id": 0,
+        "description": "Design, development and deployment of web app"
+      },
+      {
+        "id": 1,
+        "description": "Coordination and training of development teams"
+      },
+      {
+        "id": 2,
+        "description": "Direct contact with client to collect needs, feedback and validations"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Full-stack Developer - Capgemini",
+    "date": "Dec 2018 - Mar 2019",
+    "description": "Full stack developer of E-Monthly project for Safran Aircraft Engine World leader in aeronautical propulsion and engine industrialization for civil and military aircraft. I am responsible for:",
+    "tasks": [
+      {
+        "id": 0,
+        "description": "Writing functional specifications"
+      },
+      {
+        "id": 1,
+        "description": "Developing front-end and back-end features, complying with security and performance standards"
+      },
+      {
+        "id": 2,
+        "description": "Participating in continuous integration and code review"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Full-stack Developer - Capgemini",
+    "date": "Feb 2018 - Dec 2018 ",
+    "description": "As full stack developer within Workflow project of CEA major research actor in four domains: low-carbon energies, digital, medicine of the future, defense and security. I am responsible for:",
+    "tasks": [
+      {
+        "id": 0,
+        "description": "Design of different screens of portal"
+      },
+      {
+        "id": 1,
+        "description": "Creation and design of database and stored procedures."
+      },
+      {
+        "id": 2,
+        "description": "Development of front-end and back-end features. "
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Ruby on Rails Developer - 1Year1Book",
+    "date": "Oct 2016 - Jul 2017",
+    "description": "Ruby on Rails developer at 1Year1Book, innovative startup for creating personalized online memory books. I am responsible for:",
+    "tasks": [
+      {
+        "id": 0,
+        "description": "Development of new features for the platform"
+      },
+      {
+        "id": 1,
+        "description": "Bug fixing and performance optimization"
+      },
+      {
+        "id": 2,
+        "description": "Automation of internal tools: archiving of Photoshop, InDesign and Illustrator files, importing and migrating users (Shell/Bash scripts, AWS functions)"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Dotnet Developer - Groupe Randstad France",
+    "date": "May 2016 - Sep 2016",
+    "description": "Dotnet developer at Randstad World leader in human resources consulting, offering solutions tailored to businesses and candidates. I am responsible for:",
+    "tasks": [
+      {
+        "id": 0,
+        "description": "Participating in development of Osmos tool, an internal software package to manage company activities"
+      },
+      {
+        "id": 1,
+        "description": "Developing new features in .Net / C# / Windows"
+      },
+      {
+        "id": 2,
+        "description": "Optimizing some processes using Oracle SQL to query and manipulate data"
+      },
+      {
+        "id": 3,
+        "description": "Writing functional specifications to document changes of tool, following company standards and methods"
+      }
+    ]
+  }
+]

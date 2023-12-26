@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "title": "University Paris 8",
+    "date": "2017 - 2018",
+    "description": "Master of Computer Science (M2), Hypermedia Technologies"
+  },
+  {
+    "id": 1,
+    "title": "University Paris 8",
+    "date": "2016 - 2017",
+    "description": "Master of Computer Science (M1), Computer Engineering"
+  },
+  {
+    "id": 2,
+    "title": "University Paris 8",
+    "date": "2015 - 2016",
+    "description": "Bachelor of Professional Studies in Computer Science, Intelligent Communicating Objects"
+  },
+  {
+    "id": 3,
+    "title": "OFPPT: Mixed Center",
+    "date": "2013 - 2015",
+    "description": "Advanced Technician's Diploma, Computer Science"
+  }
+]
