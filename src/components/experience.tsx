@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
 import experiencesData from '@data/experiences.json';
-import { useState } from 'react';
+import { Ref, forwardRef, useState } from 'react';
 
-function Experience() {
+const Experience = forwardRef((_props, ref: Ref<HTMLDivElement>) => {
   const [toggleExperiences, setToggleExperiences] = useState(false);
 
   const animationVariants = {
@@ -15,7 +15,7 @@ function Experience() {
   };
 
   return (
-    <motion.div initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.6 }}>
+    <motion.div ref={ref} initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.6 }}>
       <section className="text-gray-800  dark:text-gray-100 mt-24">
         <div className="container max-w-5xl px-4 py-12 mx-auto">
           <div className="grid gap-4 mx-4 sm:grid-cols-12">
@@ -63,6 +63,6 @@ function Experience() {
       </section>
     </motion.div>
   );
-}
+});
 
 export default Experience;

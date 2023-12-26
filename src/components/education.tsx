@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
 import educationsData from '@data/educations.json';
-import { useState } from 'react';
+import { Ref, forwardRef, useState } from 'react';
 
-function Education() {
+const Education = forwardRef((_props, ref: Ref<HTMLDivElement>) => {
   const [toggleEducations, setToggleEducations] = useState(false);
 
   const animationVariants = {
@@ -15,7 +15,7 @@ function Education() {
   };
 
   return (
-    <motion.div initial={{ y: 20, opacity: 0 }} whileInView={{ y: 0, opacity: 1 }}>
+    <motion.div ref={ref} initial={{ y: 20, opacity: 0 }} whileInView={{ y: 0, opacity: 1 }}>
       <section className="text-gray-800  dark:text-gray-100 mt-24">
         <div className="container max-w-5xl px-4 py-12 mx-auto">
           <div className="grid gap-4 mx-4 sm:grid-cols-12">
@@ -48,6 +48,6 @@ function Education() {
       </section>
     </motion.div>
   );
-}
+});
 
 export default Education;

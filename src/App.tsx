@@ -15,18 +15,15 @@ function App() {
   return (
     <>
       <Header aboutRef={about} experienceRef={experience} educationRef={education} certificationRef={certification}></Header>
-      <div ref={about}>
-        <Hero></Hero>
-      </div>
-      <div ref={experience}>
-        <Experience></Experience>
-      </div>
-      <div ref={education}>
-        <Education></Education>
-      </div>
-      <div ref={certification}>
-        <Certification></Certification>
-      </div>
+
+      <Hero ref={about}></Hero>
+
+      <Experience ref={experience}></Experience>
+
+      <Education ref={education}></Education>
+
+      <Certification ref={certification}></Certification>
+
       <Footer></Footer>
     </>
   );

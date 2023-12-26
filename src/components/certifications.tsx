@@ -1,10 +1,11 @@
 import { motion } from 'framer-motion';
 import Certification from './certification';
 import certificationsData from '@data/certfications.json';
+import { Ref, forwardRef } from 'react';
 
-function Certifications() {
+const Certifications = forwardRef((_props, ref: Ref<HTMLDivElement>) => {
   return (
-    <motion.div initial={{ y: 20, opacity: 0 }} whileInView={{ y: 0, opacity: 1 }}>
+    <motion.div ref={ref} initial={{ y: 20, opacity: 0 }} whileInView={{ y: 0, opacity: 1 }}>
       <section className="text-gray-800  dark:text-gray-100 mt-24">
         <div className="container justify-center max-w-5xl px-4 py-12 mx-auto">
           <div className="text-center mb-14 before:justify-center before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto sm:before:mx-auto before:dark:bg-blue-500 before:bg-blue-500">
@@ -23,6 +24,6 @@ function Certifications() {
       </section>
     </motion.div>
   );
-}
+});
 
 export default Certifications;
