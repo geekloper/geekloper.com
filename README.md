@@ -34,7 +34,7 @@ To get this project running on your local machine:
 1. **Clone the repository:**
 
 ```shell
-git clone github.com/geekloper.com
+git clone https://github.com/geekloper/geekloper.com.git
 ```
 
 2. **Install dependencies:**
@@ -46,3 +46,7 @@ npm install
 ## 👐 Contributing
 
 Feel free to fork this project, play around with the code, and make improvements. Whether it's fixing bugs, improving documentation, or adding new features, your contributions are always welcome!
+
+## 📜 License
+
+This project is open-sourced under the MIT License. See the [LICENSE](./LICENSE) file for more details.
