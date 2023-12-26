@@ -43,6 +43,12 @@ git clone https://github.com/geekloper/geekloper.com.git
 npm install
 ```
 
+3. **Start the development server:**
+
+```shell
+npm run dev
+```
+
 ## 👐 Contributing
 
 Feel free to fork this project, play around with the code, and make improvements. Whether it's fixing bugs, improving documentation, or adding new features, your contributions are always welcome!
